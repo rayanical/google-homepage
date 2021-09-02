@@ -1,0 +1,214 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul > div > li > a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+}
+
+#navbar ul > div > li {
+    list-style: none;
+}
+
+#navbar ul > div > li:hover {
+    list-style: none;
+    text-decoration: underline;
+}
+
+#navbar ul {
+    gap: 1em;
+}
+
+#navbar ul > li > a > svg {
+    color: #5e6268;
+}
+
+#start {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+#end {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    gap: 1em;
+    margin-right: 20px;
+}
+
+#sign {
+    background: #4180ec;
+    border: none;
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+}
+
+#sign:hover {
+    background: #4485f2;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    margin-left: 250px;
+}
+
+input {
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    width: 570px;
+    height: 45px;
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 530px 8px;
+    outline: none;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+#searchBox {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+#searchBox input:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 30px;
+}
+
+.btns {
+    border: none;
+    background: #f8f9fa;
+    font-size: 14px;
+    outline: none;
+    width: 127px;
+    height: 36px;
+    border-radius: 3px;
+}
+
+.btns:hover {
+    border: 1px #dfe1e5 solid;
+}
+
+.onClick {
+    border: 1px solid #4485f2;
+}
+
+.a {
+    margin-top: 4px;
+}
+
+#footer ul > div > li > a {
+    text-decoration: none;
+    color: #71757b;
+    font-size: 14px;
+    padding: 0;
+}
+
+#footer ul > div > li {
+    list-style: none;
+}
+
+#footer ul > div > li:hover {
+    list-style: none;
+    text-decoration: underline;
+}
+
+#footer ul > div {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-top: 10px;
+}
+
+#footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer ul > div > li > a > img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+#footer {
+    background: #f2f3f3;
+    width: 100vw;
+    height: 43px;
+    margin-top: 395px;
+}
+
+#right {
+    margin-right: 30px;
+}
+
+.icon-resize {
+    width: 30px;
+    height: 30px;
+}
+
+#app:hover {
+    background: #f2f3f3;
+    border-radius: 50%;
+}
+
+#app {
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#apps {
+    visibility: hidden;
+    border: 0;
+    display: grid;
+    border: 1px #cdcdcc solid;
+    border-radius: 5px;
+    width: 270px;
+    padding: 28px;
+    margin-right: 15px;
+    margin-top: 50px;
+    right: 0;
+    z-index: 1;
+    position: absolute;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    background: white;
+}
+
+.papp {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.flat-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.flat-card:hover {
+    background: #e9f0ff;
+    border-radius: 15px;
+}
